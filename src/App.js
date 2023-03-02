@@ -30,12 +30,12 @@ function App() {
         setMode('dark')
         document.body.style.backgroundColor = '#353f48'
         showAlert("Dark mode has been enabled","success")
-        document.title("Textutils - Dark Mode")
+        // document.title("Textutils - Dark Mode")
       }else{
         setMode('light')
         document.body.style.backgroundColor = 'white'
         showAlert("Light mode has been enabled","success")
-        document.title("Textutils - Light Mode")
+        // document.title("Textutils - Light Mode")
       }
     } 
 
@@ -56,7 +56,7 @@ function App() {
 
           {/* </Route> */}
     {/* </Routes> */}
-    <TextForms showAlert={showAlert} heading = "Enter the text to analyze" mode={mode}/>
+    <TextForms showAlert={showAlert} heading = "Try TextUtils - Word Counter, Character Counter, Remove extra spaces" mode={mode}/>
       
     </div>
     {/* </Router> */}
